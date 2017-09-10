@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbarcontactlist">
+  <a class="navbar-brand" href="#">My Contacts List</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav navbarlinkarea">
+          <a class="nav-item nav-link"  [routerLink]="['']"  [routerLinkActive]="['active']">Home </a>
+          <a class="nav-item nav-link" [routerLink]="['/profile']" [routerLinkActive]="['active']">Profile</a>
+          <a class="nav-item nav-link" [routerLink]="['/contacts']" [routerLinkActive]="['active']">Search</a>
+          <a class="nav-item nav-link"  [routerLink]="['/add']" [routerLinkActive]="['active']">Add</a>
+      </div>
+  </div>
+</nav>
+

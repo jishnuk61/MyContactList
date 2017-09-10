@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// Import the DataService
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+   // Define a users property to hold our user data
+  
 }

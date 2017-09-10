@@ -1,0 +1,21 @@
+.addcomponent{
+
+    margin-top: 7%;
+}
+.md-form{
+    padding-left: 2%;
+}
+
+.md-form label{
+    padding-left: 2%;
+    width: 100%;
+}
+
+.addcntbttn:disabled{
+cursor: no-drop;
+}
+
+.addcntbttn{
+    cursor: pointer;
+    }
+   

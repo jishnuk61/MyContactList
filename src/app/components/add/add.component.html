@@ -1,0 +1,43 @@
+<!-- Form contact -->
+
+<div class="container addcomponent">
+
+  <div class="card">
+      <div class="card-body">
+<form [formGroup]="rForm" (ngSubmit)="addContact(rForm.value)">
+  
+      <p class="h5 text-center mb-4">Add new contact</p>
+  
+      <div class="md-form">
+          <i class="fa fa-user prefix grey-text"></i>
+          <input type="text" id="form3" class="form-control" formControlName="firstname"  required >
+          <label for="form3" data-error="enter first name" >First name</label>
+      </div>
+      <div class="md-form">
+          <i class="fa fa-user prefix grey-text"></i>
+          <input type="text" id="form3" class="form-control" formControlName="lastname"  required>
+          <label for="form3" data-error="enter last name">Last name</label>
+      </div>
+  
+      <div class="md-form">
+          <i class="fa fa-envelope prefix grey-text"></i>
+          <input type="text" id="form2" class="form-control" formControlName="emailid"  required>
+          <label for="form2" data-error="enter email id"> email id</label>
+      </div>
+  
+      <div class="md-form">
+          <i class="fa fa-phone prefix grey-text" ></i>
+          <input type="text" id="form32" class="form-control" formControlName="mobile"  required>
+          <label for="form34" data-error="enter phone number">Phone number</label>
+      </div>
+  
+        
+      <div class="text-center">
+          <button class="btn btn-unique addcntbttn" type="submit" [disabled]="!rForm.valid"><i class="fa fa-plus prefix grey-text" aria-hidden="true"></i>&nbsp; Add</button>
+      </div>
+  
+  </form>
+</div>
+</div>
+  <!-- Form contact -->
+</div>

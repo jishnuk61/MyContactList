@@ -1,0 +1,19 @@
+
+<div class="container">
+<div class="row">
+ <div class="col-4" *ngFor="let contact of contacts">
+<div class="card">
+  
+
+  <div class="card-body">
+
+      <h4>{{contact.firstname}}</h4><span style="float:right"><i (click)="confirmDel(contact._id)" class="fa fa-2x fa-times-circle" aria-hidden="true"></i></span>
+      <p class="card-text">{{contact.firsttname}} &nbsp;{{contact.lastname}}</p>
+      <p class="card-text">{{contact.emailid}}</p>
+      <p class="card-text">{{contact.mobile}}</p>
+  </div>
+</div>
+ </div>
+ <!-- <div class="row"  ></div> -->
+</div> <!-- row  ends -->
+</div> <!-- container ends -->
